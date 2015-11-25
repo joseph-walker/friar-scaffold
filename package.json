@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "friar": ">=0.0.3",
-    "immutable": "^3.7.5",
     "react": "^0.14.1",
     "react-dom": "^0.14.1"
   },
@@ -18,6 +17,7 @@
     "babel-core": "^6.0.14",
     "babel-loader": "^6.0.0",
     "babel-preset-es2015": "^6.0.14",
-    "webpack": "^1.12.2"
+    "webpack": "^1.12.2",
+    "babel-preset-react": "^6.1.18"
   }
 }

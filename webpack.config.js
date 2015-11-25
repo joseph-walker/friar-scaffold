@@ -13,8 +13,7 @@ module.exports = {
     externals: {
         'rx': 'Rx',
         'react': 'React',
-        'react-dom': 'ReactDOM',
-        'immutable': 'Immutable'
+        'react-dom': 'ReactDOM'
     },
     resolve: {
         root: path.resolve('./js')
@@ -29,7 +28,7 @@ module.exports = {
                 ],
                 query: {
                     cacheDirectory: true,
-                    presets: ['es2015']
+                    presets: ['es2015', 'react']
                 }
             }
         ]
